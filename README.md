@@ -1,64 +1,102 @@
-{
- "cells": [
-  {
-   "cell_type": "markdown",
-   "id": "29e96740-6c08-4f7a-a98c-620609ef3dba",
-   "metadata": {},
-   "source": [
-    "We use distribution plots to visualize the distribution of quantitative data."
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "a0fe32a0-01b3-465f-a910-f5b703804cad",
-   "metadata": {},
-   "source": [
-    "-> distplot/histplot\n",
-    "-> jointplot\n",
-    "-> pairplot\n",
-    "-> rugplot\n",
-    "learing these"
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": 1,
-   "id": "6b81297f-476a-44b6-a3de-17b5d0dc5e1f",
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "import seaborn as sns\n",
-    "import matplotlib.pyplot as plt "
-   ]
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "21475ca2-5c13-497a-abff-4deb6de3499e",
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  }
- ],
- "metadata": {
-  "kernelspec": {
-   "display_name": "Python 3 (ipykernel)",
-   "language": "python",
-   "name": "python3"
-  },
-  "language_info": {
-   "codemirror_mode": {
-    "name": "ipython",
-    "version": 3
-   },
-   "file_extension": ".py",
-   "mimetype": "text/x-python",
-   "name": "python",
-   "nbconvert_exporter": "python",
-   "pygments_lexer": "ipython3",
-   "version": "3.13.9"
-  }
- },
- "nbformat": 4,
- "nbformat_minor": 5
-}
+# Seaborn
+
+A comprehensive collection of Seaborn implementations covering statistical data visualization techniques in Python. This repository contains practical examples, visualization workflows, and customization techniques using real-world datasets.
+
+**Maintained by:** **Pallavi Dahiya**
+
+---
+
+## Overview
+
+This repository demonstrates the implementation of Seaborn's visualization library through organized notebooks. Each notebook focuses on a specific plot type, its parameters, customization options, and practical use cases.
+
+---
+
+## Tech Stack
+
+- Python
+- Jupyter Notebook
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+
+---
+
+## Topics Covered
+
+### Data Fundamentals
+- Quantitative vs Qualitative Variables
+
+### Distribution Plots
+- Histogram (`histplot`)
+- Kernel Density Estimation (`kdeplot`)
+- Rug Plot (`rugplot`)
+- Joint Plot (`jointplot`)
+- Pair Plot (`pairplot`)
+
+### Categorical Plots
+- Count Plot (`countplot`)
+- Bar Plot (`barplot`)
+- Box Plot (`boxplot`)
+- Violin Plot (`violinplot`)
+- Strip Plot (`stripplot`)
+- Swarm Plot (`swarmplot`)
+
+### Matrix Plots
+- Heatmap (`heatmap`)
+- Pivot Table Heatmap
+- Cluster Map (`clustermap`)
+
+### Regression Plots
+- Linear Model Plot (`lmplot`)
+
+---
+
+## Repository Structure
+
+```text
+Seaborn/
+├── Distribution_Plots/
+├── Categorical_Plots/
+├── Matrix_Plots/
+├── Regression_Plots/
+└── README.md
+```
+
+---
+
+## Repository Highlights
+
+- Well-structured Jupyter notebooks
+- Practical visualization examples
+- Clean and readable implementations
+- Plot customization techniques
+- Real dataset analysis
+- Version-controlled learning progress
+
+---
+
+## Current Status
+
+| Module | Status |
+|---------|:------:|
+| Data Fundamentals | ✅ |
+| Distribution Plots | ✅ |
+| Categorical Plots | ✅ |
+| Matrix Plots | ✅ |
+| Regression Plots | ✅ |
+
+---
+
+## Author
+
+Pallavi Dahiya
+
+Computer Science Engineering (Data Science)
+
+GitHub: **https://github.com/Pallavi415**
+
+---
+
+If you find this repository helpful, consider giving it a ⭐.
